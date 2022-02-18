@@ -1,0 +1,62 @@
+header{
+    text-align: center;
+    height: 20vh;
+}
+h1{
+    padding-top: 30px;
+    font-size: 30pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
+}
+
+section{
+    height: 400px;
+    background-image: url('https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2016/09/16123126/Orbitz-Old-school-barber-shops-in-the-US-Gravers-Barbershop-1.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-left: 34%;
+}
+
+p{
+    font-size: 15pt;
+    background-color: black;
+    color: white;
+    width: 30vw;
+    text-align: center;
+
+}
+
+button{
+    margin-left: 17%;
+}
+
+article{
+    padding-left: 30%;
+    height: 500px;
+    width: 50vw;
+}
+#photo1{
+    height: 500px;
+    background-image: url('https://i.pinimg.com/564x/ac/40/44/ac404496fd2442b21f022dcaca5a5a93.jpg');
+    background-repeat: no-repeat;
+    margin: 70px;
+ 
+}
+
+#photo2{
+    height: 500px;
+    background-image: url('https://j3u9y6m9.rocketcdn.me/wp-content/uploads/2015/05/tumblr_static_chfzddwirw0scokck8ckw080w.jpg');
+    background-repeat: no-repeat;
+    margin: 70px;
+}
+
+#photo3{
+    height: 600px;
+    background-image: url('https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTYxNjk0NTAyMzcxNzMwNzM0/gettyimages-74302338.jpg');
+    background-repeat: no-repeat;
+    margin: 70px;
+}
+
+div{
+    margin-left: 35%;
+}
