@@ -31,16 +31,20 @@ button{
 }
 
 article{
-    padding-left: 30%;
+
     height: 500px;
+    display: grid;
+    grid-template-columns: 33% 33% 34% ;
+    padding-left: 10%;
+    padding-top: 2%;
 
 }
 #photo1{
     height: 500px;
     background-image: url('https://i.pinimg.com/564x/ac/40/44/ac404496fd2442b21f022dcaca5a5a93.jpg');
     background-repeat: no-repeat;
-    margin: 70px;
-    margin-left: 220px;
+
+
  
 }
 
@@ -48,21 +52,18 @@ article{
     height: 500px;
     background-image: url('https://j3u9y6m9.rocketcdn.me/wp-content/uploads/2015/05/tumblr_static_chfzddwirw0scokck8ckw080w.jpg');
     background-repeat: no-repeat;
-    margin: 70px;
-    margin-left: 250px;
+
+
 }
 
 #photo3{
     height: 600px;
     background-image: url('https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTYxNjk0NTAyMzcxNzMwNzM0/gettyimages-74302338.jpg');
     background-repeat: no-repeat;
-    margin: 70px;
-    margin-left: 160px;
+
 }
 
-div{
-    margin-left: 18%;
-}
+
 
 footer{
     height: 200px;
