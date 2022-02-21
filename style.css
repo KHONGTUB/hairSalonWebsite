@@ -1,6 +1,7 @@
 header{
     text-align: center;
     height: 20vh;
+    padding-bottom: 20px;
 }
 h1{
     padding-top: 30px;
@@ -99,7 +100,7 @@ footer{
 }
 
 nav{
-    padding-bottom: 15px;
+    width: 1440px;
 }
 
 ul {
