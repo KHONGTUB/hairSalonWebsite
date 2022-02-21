@@ -11,7 +11,7 @@ h1{
 
 section{
     height: 400px;
-    width: 1000px;
+    width: 870px;
     background-image: url('https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2016/09/16123126/Orbitz-Old-school-barber-shops-in-the-US-Gravers-Barbershop-1.jpg');
     background-position: center ;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@ button{
 article{
 
     height: 1000px;
-    width: 1510px;
+    width: 1230px;
     display: grid;
     grid-template-columns: 33% 33% 34% ;
     text-align: center;
@@ -94,13 +94,21 @@ footer{
     background-color: darkgray;
 }
 
-
 .text{
     margin-top: 30%;
 }
 
+.textpadding{
+    margin-top: 30%;
+    padding-left: 99px;
+}
+.textpadwidth{
+    margin-top: 30%;
+    padding-left: 99px;
+    width: 390px;
+}
 nav{
-    width: 1440px;
+    width: 1310px;
 }
 
 ul {
