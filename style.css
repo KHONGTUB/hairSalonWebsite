@@ -10,6 +10,7 @@ h1{
 
 section{
     height: 400px;
+    width: 1000px;
     background-image: url('https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2016/09/16123126/Orbitz-Old-school-barber-shops-in-the-US-Gravers-Barbershop-1.jpg');
     background-position: center ;
     background-repeat: no-repeat;
@@ -32,17 +33,26 @@ button{
 
 article{
 
-    height: 500px;
+    height: 1000px;
+    width: 1510px;
     display: grid;
     grid-template-columns: 33% 33% 34% ;
-    padding-left: 10%;
+    text-align: center;
+    font-size: 20pt;
+
     padding-top: 2%;
 
 }
+
+
 #photo1{
     height: 500px;
+    width: 500px;
     background-image: url('https://i.pinimg.com/564x/ac/40/44/ac404496fd2442b21f022dcaca5a5a93.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+
+
 
 
  
@@ -50,23 +60,69 @@ article{
 
 #photo2{
     height: 500px;
-    background-image: url('https://j3u9y6m9.rocketcdn.me/wp-content/uploads/2015/05/tumblr_static_chfzddwirw0scokck8ckw080w.jpg');
+    width: 500px;
+    background-image: url('https://i1.sndcdn.com/artworks-UFXPWhI0FuwKedvF-C5dcAA-t500x500.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+
+
+
+
 
 
 }
 
 #photo3{
-    height: 600px;
-    background-image: url('https://www.history.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_620/MTYxNjk0NTAyMzcxNzMwNzM0/gettyimages-74302338.jpg');
+    height: 500px;
+    width: 500px;
+    background-image: url('https://menhairstylesworld.com/wp-content/uploads/2019/06/Big-Daddy-Kane-Haircut.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    /* margin-right: 20px; */
+
 
 }
-
 
 
 footer{
-    height: 200px;
+    border: solid black 15px;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: left;
     font-size: 25pt;
-    text-align: center;
+    background-color: darkgray;
 }
+
+
+.text{
+    margin-top: 30%;
+}
+
+nav{
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
