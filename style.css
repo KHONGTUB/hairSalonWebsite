@@ -35,53 +35,38 @@ button{
 article{
 
     height: 1000px;
-    width: 1230px;
+    width: 100vw;
     display: grid;
     grid-template-columns: 33% 33% 34% ;
     text-align: center;
     font-size: 20pt;
-
     padding-top: 2%;
 
 }
 
 
 #photo1{
-    height: 500px;
-    width: 500px;
+
     background-image: url('https://i.pinimg.com/564x/ac/40/44/ac404496fd2442b21f022dcaca5a5a93.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
 
-
-
-
- 
 }
 
 #photo2{
-    height: 500px;
-    width: 500px;
     background-image: url('https://i1.sndcdn.com/artworks-UFXPWhI0FuwKedvF-C5dcAA-t500x500.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-
-
-
-
-
-
 }
 
 #photo3{
-    height: 500px;
-    width: 500px;
+
     background-image: url('https://menhairstylesworld.com/wp-content/uploads/2019/06/Big-Daddy-Kane-Haircut.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    /* margin-right: 20px; */
-
-
+    background-size: cover;
 }
 
 
@@ -100,12 +85,12 @@ footer{
 
 .textpadding{
     margin-top: 30%;
-    padding-left: 99px;
+
 }
 .textpadwidth{
     margin-top: 30%;
-    padding-left: 99px;
-    width: 390px;
+    padding-left: 50px;
+    width: 460px;
 }
 nav{
     width: 1310px;
