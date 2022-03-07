@@ -6,36 +6,67 @@
         padding-bottom: 20px;
     }
     h1{
-        text-align: center;
         padding-top: 30px;
         font-size: 30pt;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
     }
-    
-    h2{
-        font-size: 30pt;
-        text-align: center;
-    }
-    section{
-        text-align: center;
-    }
     footer{
         border: solid black 5px;
         margin-top: 30px;
-        margin-left: 20px;
         padding: 10px;
         text-align: left;
         font-size: 15pt;
         background-color: darkgray;
+        width: 100vw;
     }
-    #image{
-        height: 300px;
-        width: 450px
-    }
-    
-    
     nav{
+        width: 100vw;
+    }
+    
+    h2{
+        border: inset darkgrey 10px;
+        background-color: lightgrey;
+        font-size: 30pt;
+        text-align: center;
         width: 98vw;
+    }
+    article{
+        font-size: 20pt;
+        height: 2500px;
+        text-align: center;
+        display: grid;
+        grid-template-rows: auto;
+    }
+    
+    #beardedman{
+        height: 350px;
+        width: 450px;
+    }
+
+    #barbershop{
+        height: 350px;
+        width: 450px;
+    }
+    
+    #kidsplaying{
+        height: 350px;
+        width: 450px;
+    }
+
+    div{
+        border: solid black 5px;
+        /* margin: 20px; */
+        height: 650px;
+    }
+    
+    button{
+        background-color: black;
+        color: white;
+        font-size: 20pt;
+    }
+    
+    p{
+        margin-top: 15px;
     }
     
     ul {
@@ -72,33 +103,10 @@
     padding-bottom: 20px;
 }
 h1{
-    text-align: center;
     padding-top: 30px;
     font-size: 30pt;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
 }
-
-h2{
-    font-size: 30pt;
-    text-align: center;
-}
-section{
-    text-align: center;
-}
-
-h3{
-    font-size: 25pt;
-}
-p{
-    padding-left: 35%;
-    width: 400px;
-}
-
-#image{
-    border: solid black 10px;
-    margin-left: 17%;
-}
-
 footer{
     border: solid black 15px;
     margin-top: 30px;
@@ -107,9 +115,39 @@ footer{
     font-size: 25pt;
     background-color: darkgray;
 }
-
 nav{
     width: 98vw;
+}
+
+h2{
+    border: inset darkgrey 10px;
+    background-color: lightgrey;
+    font-size: 30pt;
+    text-align: center;
+}
+
+article{
+    font-size: 20pt;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+div{
+    border: solid black 5px;
+    display: flex;
+    margin: 20px;
+    height: 500px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+}
+
+p{
+    margin: 30px;
 }
 
 ul {

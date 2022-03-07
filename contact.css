@@ -3,36 +3,44 @@
     header{
         text-align: center;
         height: 20vh;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     h1{
-        text-align: center;
         padding-top: 30px;
         font-size: 30pt;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
     }
     
-    h2{
-        font-size: 30pt;
-        text-align: center;
+    div{
+        height: 339px;
+        width: 100vw;
+        background-image: url('https://media.istockphoto.com/photos/positive-man-smiling-and-barber-with-tattoos-doing-haircut-for-him-picture-id1083853296?k=20&m=1083853296&s=170667a&w=0&h=10S8XunQUPy0v-IFJoZtsFIEn930r5Wu23TayBXdNl0=');
+        background-size: contain;
+        background-repeat: no-repeat;
     }
-    section{
-        text-align: center;
-    }
-    footer{
-        border: solid black 5px;
-        margin-top: 30px;
-        margin-left: 20px;
-        padding: 10px;
-        text-align: left;
-        font-size: 15pt;
-        background-color: darkgray;
-    }
-    #image{
-        height: 300px;
-        width: 450px
+    #email{
+        width: 60vw;
     }
     
+    label{
+        font-size: 20pt;
+    }
+    
+    textarea{
+        width: 60vw;
+        height: 100px;
+    
+    }
+    main{
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    
+    
+    #button{
+        margin-bottom: 15px;
+    }
     
     nav{
         width: 98vw;
@@ -58,10 +66,20 @@
         text-decoration: none;
       }
       
-    
       li a:hover {
         background-color: #111;
       }
+    }
+    footer{
+        border: solid black 15px;
+        margin-top: 30px;
+        padding: 10px;
+        text-align: left;
+        font-size: 15pt;
+        background-color: darkgray;
+    
+    
+    
 }
 
 
@@ -72,32 +90,44 @@
     padding-bottom: 20px;
 }
 h1{
-    text-align: center;
     padding-top: 30px;
     font-size: 30pt;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
 }
 
-h2{
-    font-size: 30pt;
-    text-align: center;
+div{
+    margin-left: 27%;
+    height: 420px;
+    width: 600px;
+    background-image: url('https://media.istockphoto.com/photos/positive-man-smiling-and-barber-with-tattoos-doing-haircut-for-him-picture-id1083853296?k=20&m=1083853296&s=170667a&w=0&h=10S8XunQUPy0v-IFJoZtsFIEn930r5Wu23TayBXdNl0=');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-section{
+
+#email{
+    width: 40vw;
+}
+
+label{
+    font-size: 20pt;
+}
+
+textarea{
+    width: 40vw;
+    height: 200px;
+
+}
+main{
+    margin-top: 30px;
     text-align: center;
 }
 
-h3{
-    font-size: 25pt;
-}
-p{
-    padding-left: 35%;
-    width: 400px;
+
+
+#button{
+    margin-bottom: 15px;
 }
 
-#image{
-    border: solid black 10px;
-    margin-left: 17%;
-}
 
 footer{
     border: solid black 15px;
@@ -107,6 +137,7 @@ footer{
     font-size: 25pt;
     background-color: darkgray;
 }
+
 
 nav{
     width: 98vw;
@@ -132,7 +163,6 @@ ul {
     text-decoration: none;
   }
   
-
   li a:hover {
     background-color: #111;
   }
