@@ -9,6 +9,14 @@
         font-size: 30pt;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ;
     }
+    button{
+        background-color: black;
+        color: white;
+    }
+    button:hover{
+        background-color: white;
+        color: black;
+    }
     
     section{
         height: 400px;
@@ -56,7 +64,7 @@
       }
     
     footer{
-        border: solid black 15px;
+        border: solid black 5px;
 
         padding: 20px 10px 20px 0;
         text-align: left;
@@ -65,7 +73,7 @@
     }
     article{
 
-        height:2000px;
+        height:2800px;
         width: 100vw;
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -99,15 +107,15 @@
         background-size: cover;
     }
     .text{
-        margin-top: 15%;
+        margin-top: 25%;
     }
     
     .textpadding{
-        margin-top: 15%;
+        margin-top: 25%;
     
     }
     .textpadwidth{
-        margin-top: 15%;
+        margin-top: 25%;
     }
 
     
@@ -117,7 +125,7 @@
 @media(min-width: 992px){
     header{
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     padding-bottom: 20px;
 }
 h1{
@@ -128,7 +136,6 @@ h1{
 
 section{
     height: 400px;
-    width: 870px;
     background-image: url('https://s3-us-east-2.amazonaws.com/orbitz-media/blog/wp-content/uploads/2016/09/16123126/Orbitz-Old-school-barber-shops-in-the-US-Gravers-Barbershop-1.jpg');
     background-position: center ;
     background-repeat: no-repeat;
@@ -147,11 +154,17 @@ p{
 
 button{
     margin-left: 20%;
+    color: black;
+    background-color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
 }
 
 article{
 
-    height: 1000px;
+    height: 1900px;
     width: 99vw;
     display: grid;
     grid-template-columns: 33% 33% 34% ;
@@ -206,8 +219,6 @@ footer{
 }
 .textpadwidth{
     margin-top: 30%;
-    padding-left: 50px;
-    width: 390px;
 }
 nav{
     width: 98vw;

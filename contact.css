@@ -13,10 +13,12 @@
     
     div{
         height: 339px;
-        width: 100vw;
+        width: 500px;
         background-image: url('https://media.istockphoto.com/photos/positive-man-smiling-and-barber-with-tattoos-doing-haircut-for-him-picture-id1083853296?k=20&m=1083853296&s=170667a&w=0&h=10S8XunQUPy0v-IFJoZtsFIEn930r5Wu23TayBXdNl0=');
         background-size: contain;
         background-repeat: no-repeat;
+        margin: 0 auto;
+
     }
     #email{
         width: 60vw;
@@ -35,7 +37,9 @@
         margin-top: 30px;
         text-align: center;
     }
-    
+    form{
+        text-align: center;
+    }
     
     
     #button{
@@ -69,15 +73,15 @@
       li a:hover {
         background-color: #111;
       }
-    }
+    
     footer{
-        border: solid black 15px;
-        margin-top: 30px;
+        border: solid black 5px;
+        margin-top: 80px;
         padding: 10px;
         text-align: left;
         font-size: 15pt;
         background-color: darkgray;
-    
+    }
     
     
 }
@@ -86,7 +90,7 @@
 @media(min-width: 992px){
     header{
     text-align: center;
-    height: 20vh;
+    height: 15vh;
     padding-bottom: 20px;
 }
 h1{
@@ -96,16 +100,21 @@ h1{
 }
 
 div{
-    margin-left: 27%;
-    height: 420px;
-    width: 600px;
+    margin: 0 auto;
+    height: 620px;
+    width: 800px;
     background-image: url('https://media.istockphoto.com/photos/positive-man-smiling-and-barber-with-tattoos-doing-haircut-for-him-picture-id1083853296?k=20&m=1083853296&s=170667a&w=0&h=10S8XunQUPy0v-IFJoZtsFIEn930r5Wu23TayBXdNl0=');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+form{
+    text-align: center;
+}
+
 #email{
-    width: 40vw;
+    width: 500px;
+    height: 20px;
 }
 
 label{
@@ -113,25 +122,22 @@ label{
 }
 
 textarea{
-    width: 40vw;
+    width: 500px;
     height: 200px;
 
 }
-main{
-    margin-top: 30px;
-    text-align: center;
-}
-
 
 
 #button{
-    margin-bottom: 15px;
+    font-size: large;
+    color: black;
+    background-color: white;
 }
 
 
 footer{
     border: solid black 15px;
-    margin-top: 30px;
+    margin-top: 150px;
     padding: 30px;
     text-align: left;
     font-size: 25pt;
@@ -140,7 +146,7 @@ footer{
 
 
 nav{
-    width: 98vw;
+    width: 99.5vw;
 }
 
 ul {

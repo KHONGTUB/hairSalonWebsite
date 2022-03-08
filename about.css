@@ -28,6 +28,12 @@
         font-size: 15pt;
         background-color: darkgray;
     }
+
+    div{
+        display: flex;
+        justify-content: center;
+    }
+
     #image{
         height: 300px;
         width: 450px
@@ -68,7 +74,7 @@
 @media(min-width: 992px){
     header{
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     padding-bottom: 20px;
 }
 h1{
@@ -90,13 +96,18 @@ h3{
     font-size: 25pt;
 }
 p{
-    padding-left: 35%;
-    width: 400px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+div{
+    display: flex;
+    justify-content: center;
 }
 
 #image{
     border: solid black 10px;
-    margin-left: 17%;
 }
 
 footer{
@@ -109,7 +120,7 @@ footer{
 }
 
 nav{
-    width: 98vw;
+    width: 99.5vw;
 }
 
 ul {

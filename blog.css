@@ -55,7 +55,6 @@
 
     div{
         border: solid black 5px;
-        /* margin: 20px; */
         height: 650px;
     }
     
@@ -64,6 +63,11 @@
         color: white;
         font-size: 20pt;
     }
+    button:hover{
+        background-color: white;
+        color: black;
+    }
+    
     
     p{
         margin-top: 15px;
@@ -99,7 +103,7 @@
 @media(min-width: 992px){
     header{
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     padding-bottom: 20px;
 }
 h1{
@@ -144,6 +148,10 @@ button{
     background-color: black;
     color: white;
     font-size: 20pt;
+}
+button:hover{
+    background-color: white;
+    color: black;
 }
 
 p{

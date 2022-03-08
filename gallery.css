@@ -22,7 +22,7 @@
     }
     article{
 
-        height: 2000px;
+        height: 4000px;
         width: 98vw;
         display: grid;
         grid-template-rows: auto;
@@ -123,7 +123,7 @@
 @media(min-width: 992px ){
     header{
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     padding-bottom: 20px;
 }
 h1{
@@ -141,7 +141,7 @@ h2{
 
 article{
 
-    height: 1000px;
+    height: 2000px;
     width: 98vw;
     display: grid;
     grid-template-columns: 33% 33% 34% ;
@@ -211,7 +211,7 @@ footer{
     background-color: darkgray;
 }
 nav{
-    width: 98vw;
+    width: 99vw;
 }
 
 ul {
