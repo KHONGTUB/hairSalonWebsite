@@ -1,7 +1,6 @@
 @media(max-width: 991px){
     header{
         text-align: center;
-        height: 20vh;
         padding-bottom: 20px;
     }
     h1{
@@ -125,7 +124,7 @@
 @media(min-width: 992px){
     header{
     text-align: center;
-    height: 10vh;
+
     padding-bottom: 20px;
 }
 h1{
